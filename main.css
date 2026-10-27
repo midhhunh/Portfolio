@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(10, 25, 47);
+}
+
+.navbar {
+    background-color: rgb(15, 32, 65);
+    padding-bottom: 10px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.content {
+    padding-top: 12px;
+    color: white;
+}
+
+.col {
+    color: white;
+}
+
+.active {
+    color: rgb(255, 193, 7) !important;
+    font-weight: 700;
+}
+
+#cv {
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px rgb(34, 44, 233);
+}
+
+.about {
+    color: white;
+
+}
+
+.about-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.about-img {
+    width: 300px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+@media (max-width:767px) {
+    .about-img {
+        justify-content: center;
+        margin-top: 25px;
+
+    }
+
+    .about-img img {
+        width: 250px;
+        max-width: 90%;
+
+    }
+}
+
+.abt-full {
+    background-color: rgb(25, 26, 56);
+    padding: 60px;
+}
+
+.col-4 {
+    padding: 30px;
+}
+
+.skill {
+    padding: 30px;
+}
+
+.card {
+    height: 120px;
+
+    background-color: #121d30;
+
+    border: 1px solid #263854;
+
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.stars {
+    color: yellow;
+}
+
+.contact {
+    padding: 30px;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.contact-row{
+    height: 150px;
+    background-color: #121d30;
+    box-sizing: content-box;
+
+    border: 1px solid #263854;
+    border-radius: 15px;
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding: 30px;
+}
+.contact-details{
+    width: 100%;
+}
+.coll{
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(37, 54, 164);
+}
+@media (max-width:576px){
+    .contact{
+        width:100%;        
+        padding: 25px 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .contact h2{
+        font-size: 40px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+        word-wrap: break-word;
+    }
+    .contact p{
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 25px;
+        word-wrap: break-word;
+    }
+    .contact a{
+        display: block;
+        max-width: 100%;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+    .contact-row{
+        height: 270px;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .contact a{
+        font-size: 10px;
+    }
+}
